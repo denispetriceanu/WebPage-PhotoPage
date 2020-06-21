@@ -1,0 +1,50 @@
+body {
+    /* background-color: red; */
+    background-image: url("bgPortofoliu.jpg");
+}
+
+.active {
+    display: flex;
+    align-content: center;
+}
+
+.carousel-inner>.item>img {
+    margin: 0 auto;
+}
+
+.img-fluid {
+    height: 50%;
+}
+
+img {
+    border: 1px solid red;
+}
+
+.carousel-inner {
+    text-align: center;
+}
+
+#myBtn {
+    position: fixed;
+    top: 36px;
+    left: 30px;
+    z-index: 99;
+    width: 100px;
+    height: 100px;
+    outline: none;
+    /* background-color: whitesmoke; */
+    background-image: url("luna.jpg");
+    background-position: center;
+    border: 0;
+    padding: 15px;
+    border-radius: 53px;
+    font-size: 18px;
+    color: black;
+}
+h7{
+    font-size: 14.5px;
+}
+
+#myBtn:hover {
+    background-color: #555;
+}

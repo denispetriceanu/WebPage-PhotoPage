@@ -1,0 +1,41 @@
+.jumbotron-fluid {
+    padding-right: 0;
+    padding-top: 10px;
+    padding-left: 0;
+    border-radius: 0;
+    padding-bottom: 2px;
+}
+
+.containerAll {
+    margin-top: 220px;
+}
+
+.my-4 {
+    margin: 10px!important;
+}
+
+.text {
+    text-align: justify;
+}
+
+.col3 {
+    padding: 0px!important;
+}
+
+#imgDown1 {}
+
+@media only screen and (max-width: 950px) {
+    #imgDown {
+        align-items: center;
+        width: 350px;
+    }
+    .col-3 {
+        display: none;
+    }
+    .col-6 {
+        flex-basis: 90%!important;
+        padding-left: 9%;
+        text-align: justify;
+        max-width: 100%!important;
+    }
+}

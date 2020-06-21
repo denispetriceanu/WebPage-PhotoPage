@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <title>Contact-The Art of Photography</title>
+    <link rel="shortcut icon" href="image/titlePage.png" type="image/x-icon" />
+
+</head>
+
+<body>
+    <div class="container carousel-caption dimension1">
+
+        <h1 style="color:#19216C;">Contact me</h1>
+
+        <form action="/action_page.php">
+            <div class="form-group">
+                <label class="pozitionPage" for="prenume">First Name</label>
+                <input type="text" class="form-control" id="prenume" placeholder="First Name" name="prenume" required>
+            </div>
+            <div class="form-group">
+                <label class="pozitionPage" for="nume">Last Name</label>
+                <input type="text" class="form-control" id="nume" placeholder="Last Name" name="nume" required>
+            </div>
+            <div class="form-group">
+                <label class="pozitionPage" for="nrTelefon">Number of Phone:</label>
+                <input type="text" class="form-control" id="nrTelefon" placeholder="Number of Phone:" name="nrTelefon">
+            </div>
+            <div class="form-group">
+                <label class="pozitionPage" for="comment">Message:</label>
+                <textarea class="form-control" rows="5" id="comment" placeholder="Enter message"></textarea>
+            </div>
+            <div class="form-group">
+                <label class="pozitionPage" for="email">Email:</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter email" name="email" required>
+            </div>
+            <!-- <div class="custom-control custom-radio">
+                <label class="pozitionPage spacing"><input type="radio" name="remember" id="remember1">
+                    Collaboration</label>
+                <label class="pozitionPage spacing"><input type="radio" name="remember" id="remember2">
+                    Questions</label>
+                <label class="pozitionPage spacing"><input type="radio" name="remember" id="remember3"> Another</label>
+            </div> -->
+            <div class="asezare">
+                <div class="custom-control custom-radio">
+                    <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
+                    <label class="custom-control-label spacing pozitionPage" for="customRadio1">Collaboration</label>
+                </div>
+                <div class="custom-control custom-radio">
+                    <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
+                    <label class="custom-control-label spacing pozitionPage" for="customRadio2">Collaboration</label>
+                </div>
+                <div class="custom-control custom-radio">
+                    <input type="radio" id="customRadio3" name="customRadio" class="custom-control-input">
+                    <label class="custom-control-label spacing pozitionPage" for="customRadio3">Collaboration</label>
+                </div>
+            </div>
+            <button type="submit" class="btn myButton"></button>
+            <a href="index.html" class="buttonCancel"><button type="button"
+                    class="btn btn-default myButtonCancel">Cancel</button></a>
+
+        </form>
+    </div>
+    <img src="image/girl2.jpg" alt="girl" width="100%" height="100%">
+
+
+    <!-- pentru atunci cand pagina e mica -->
+    <form action="/action_page.php" class="dimension">
+        <h1 class="title">Contact me</h1>
+
+        <div class="form-group">
+            <label class="pozitionPage" for="prenume">First Name</label>
+            <input type="text" class="form-control" id="prenume" placeholder="First Name" name="prenume" required>
+        </div>
+        <div class="form-group">
+            <label class="pozitionPage" for="nume">Last Name</label>
+            <input type="text" class="form-control" id="nume" placeholder="Last Name" name="nume" required>
+        </div>
+        <div class="form-group">
+            <label class="pozitionPage" for="nrTelefon">Number of Phone:</label>
+            <input type="text" class="form-control" id="nrTelefon" placeholder="Number of Phone:" name="nrTelefon">
+        </div>
+        <div class="form-group">
+            <label class="pozitionPage" for="comment">Message:</label>
+            <textarea class="form-control" rows="5" id="comment" placeholder="Enter message"></textarea>
+        </div>
+        <div class="form-group">
+            <label class="pozitionPage" for="email">Email:</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter email" name="email" required>
+        </div>
+        <div class="custom-control custom-radio">
+            <label class="pozitionPage spacing"><input type="radio" name="remember" id="remember1">
+                Collaboration</label>
+            <label class="pozitionPage spacing"><input type="radio" name="remember" id="remember2">
+                Questions</label>
+            <label class="pozitionPage spacing"><input type="radio" name="remember" id="remember3"> Another</label>
+        </div>
+        </div>
+        <a href="index.html" class="buttonCancel"><button type="button"
+                class="btn btn-secondary myButtonCancel">Cancel</button></a>
+        <button type="submit" class="btn myButton"></button>
+    </form>
+    <footer class="footer-copyright text-center py-3">
+        Copyright © 2019 by Denis Petriceanu
+    </footer>
+</body>
+
+</html>

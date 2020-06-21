@@ -1,0 +1,108 @@
+body {
+    background-repeat: no-repeat;
+}
+
+.pozitionPage {
+    color: black;
+}
+
+form {
+    margin-top: -30px;
+    margin-right: 50px;
+    width: 500px;
+    text-align: left;
+}
+
+.spacing {
+    padding-right: 20px;
+    margin-left: 10px;
+}
+.buttonCancel{
+    border: 0px!important;
+}
+
+.asezare {
+    display: inline!important;
+}
+
+
+h1 {
+    font-family: 'Fjalla One', sans-serif;
+}
+
+label {
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.myButton {
+    background-color: #1CD4D4!important;
+    margin-left: 381px;
+    font-family: 'Fjalla One', sans-serif;
+    width: 120px;
+    height: 41px;
+    background-image: url(Messaging-Sent-icon1.gif);
+    background-position-x: 31px;
+    background-position-y: 87px;
+    background-repeat: repeat-y;
+}
+.myButtonCancel{
+    background-color: #1CD4D4!important;
+    font-family: 'Fjalla One', sans-serif;
+    width: 120px;
+    height: 41px;
+    margin-top: -70px;
+    margin-left: 220px;
+
+}
+
+.dimension{
+    display: none;
+}
+
+@media only screen and (max-height: 760px) {
+    .dimension1 {
+        display: none;
+        
+    }
+    img{
+        display: none;
+    }
+    body{
+        background-color: transparent!important;
+    }
+    .dimension{
+        display: flow-root;
+        width: 70%;
+        margin-left: 15%!important;
+    }
+    label{
+        color: #1CD4D4!important;
+    }
+    .title{
+        margin-top: 60px;
+        margin-bottom: 35px;
+        text-align: center;
+        color: #19216C;
+    }
+    .myButton {
+        background-color: #1CD4D4!important;
+        margin-left: 10%;
+        margin-top: 10px;
+        font-family: 'Fjalla One', sans-serif;
+        width: 120px;
+        height: 41px;
+        background-image: url(Messaging-Sent-icon1.gif);
+        background-position-x: 31px;
+        background-position-y: 87px;
+        background-repeat: repeat-y;
+    }
+    .myButtonCancel{
+        font-family: 'Fjalla One', sans-serif;
+        width: 120px;
+        margin-top: 10px!important;
+        margin-left: 10%!important;
+        /* margin-left: 10%; */
+        height: 41px;
+    }
+    
+}
